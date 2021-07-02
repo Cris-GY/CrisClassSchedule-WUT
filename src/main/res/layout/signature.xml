@@ -9,6 +9,6 @@
         android:layout_height="match_parent"
         android:textSize="16sp"
         android:layout_marginTop="10dp"
-        android:text="Powered by Cris-GY\n 陈冠宇\n电子1803\n0121809361517"/>
+        android:text="Powered by Cris-GY"/>
 
 </LinearLayout>

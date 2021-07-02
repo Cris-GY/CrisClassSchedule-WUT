@@ -8,11 +8,14 @@
     android:fitsSystemWindows="true"
     tools:openDrawer="start">
 
+    <!--主页使用例程-->
+    <!--主页-->
     <include
         layout="@layout/app_bar_main"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 
+    <!--左侧菜单栏-->
     <com.google.android.material.navigation.NavigationView
         android:id="@+id/nav_view"
         android:layout_width="wrap_content"

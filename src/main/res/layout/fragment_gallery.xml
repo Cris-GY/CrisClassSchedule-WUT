@@ -8,6 +8,7 @@
     android:orientation="vertical"
     tools:context=".ui.gallery.GalleryFragment">
 
+    <!--查看课程界面-->
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
