@@ -1,4 +1,8 @@
 package ml.crisgy.cgyapp;
+/**
+ * 数据库管理
+ * version 1.1.1
+ */
 
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;

@@ -1,4 +1,8 @@
 package ml.crisgy.cgyapp;
+/**
+ * 课程卡片item
+ * version 1.1.1
+ */
 
 import android.util.Log;
 

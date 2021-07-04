@@ -1,5 +1,10 @@
 package ml.crisgy.cgyapp;
 
+/**
+ * 考试卡片item
+ * @version 1.1.2
+ */
+
 public class examcarditem {
     private String examname , examroom;
     private int month , day;

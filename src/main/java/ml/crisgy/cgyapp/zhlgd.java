@@ -1,4 +1,8 @@
 package ml.crisgy.cgyapp;
+/**
+ * 智慧理工大webview
+ * @version 1.1.1
+ */
 
 import android.content.Intent;
 import android.os.Bundle;

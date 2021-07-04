@@ -1,4 +1,8 @@
 package ml.crisgy.cgyapp;
+/**
+ *主页课程卡片adapter
+ * @version 1.1.1
+ */
 
 import android.content.Context;
 import android.util.Log;
@@ -25,9 +29,9 @@ public class coursecardadapter extends ArrayAdapter<coursecarditem> {
         View view;
         view = LayoutInflater.from(getContext()).inflate(resourceId, parent, false);
         TextView coursecardname = view.findViewById(R.id.coursecardname_textview);
-        TextView coursecardweek = view.findViewById(R.id.coursecardweek_textview);
-        TextView coursecardtime = view.findViewById(R.id.coursecardtime_textview);
-        TextView coursecardcontent = view.findViewById(R.id.coursecardcontent_textview);
+        TextView coursecardweek = view.findViewById(R.id.coursecardweek_textview);//周数和周几
+        TextView coursecardtime = view.findViewById(R.id.coursecardtime_textview);//第几节
+        TextView coursecardcontent = view.findViewById(R.id.coursecardcontent_textview);//其他内容包括老师和教室
         String coursename = coursecarditem.getCoursename();
         coursecardname.setText(coursename);
         int weekstart = coursecarditem.getWeekstart();

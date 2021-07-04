@@ -1,4 +1,9 @@
 package ml.crisgy.cgyapp;
+/**
+ * 添加考试
+ * 考试日期选择为简单列表下拉选择，未判定是否合法
+ * @version 1.1.2
+ */
 
 import android.content.ContentValues;
 import android.content.SharedPreferences;

@@ -1,5 +1,8 @@
 package ml.crisgy.cgyapp;
-
+/**
+ * 设置
+ * #version 1.1.3
+ */
 
 import android.content.ComponentName;
 import android.content.Intent;

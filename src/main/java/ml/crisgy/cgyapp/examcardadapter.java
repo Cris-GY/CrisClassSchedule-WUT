@@ -1,4 +1,8 @@
 package ml.crisgy.cgyapp;
+/**
+ * 考试卡片adapter
+ * @version 1.1.3
+ */
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -24,7 +28,7 @@ public class examcardadapter extends ArrayAdapter<examcarditem> {
         View view;
         view = LayoutInflater.from(getContext()).inflate(resourceId, parent, false);
         TextView examcardname = view.findViewById(R.id.examcardname_textview);
-        TextView examcardcontent = view.findViewById(R.id.examcardcontent_textview);
+        TextView examcardcontent = view.findViewById(R.id.examcardcontent_textview);//包括考试时间加地点
         examcardname.setText(examcarditem.getExamname());
         int month = examcarditem.getMonth();
         String months = "" + month;

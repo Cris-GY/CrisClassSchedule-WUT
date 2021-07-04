@@ -1,4 +1,8 @@
 package ml.crisgy.cgyapp;
+/**
+ * 通知提醒
+ * @version 1.1.1
+ */
 
 import android.os.Bundle;
 import android.os.PersistableBundle;

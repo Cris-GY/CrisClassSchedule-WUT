@@ -1,4 +1,8 @@
 package ml.crisgy.cgyapp;
+/**
+ * 添加课程
+ *@version 1.1.3
+ */
 
 import android.content.ContentValues;
 import android.database.sqlite.SQLiteDatabase;
@@ -17,11 +21,11 @@ import java.util.List;
 
 public class addcourse extends MainActivity{
 
-    private List<String> weeklist = new ArrayList<String>();
+    private List<String> weeklist = new ArrayList<String>();//第几周
     private ArrayAdapter<String> courseweekspinneradapter;
-    private List<String> ofweeklist = new ArrayList<String>();
+    private List<String> ofweeklist = new ArrayList<String>();//周几
     private ArrayAdapter<String> courseofweekspinneradapter;
-    private List<String> timelist = new ArrayList<String>();
+    private List<String> timelist = new ArrayList<String>();//时间
     private ArrayAdapter<String> coursetimespinneradapter;
     private databasehelper coursedbhelper;
     int ofweek = 1, timestart = 1, timeend = 1, weekstart = 1, weekend = 1;

@@ -1,4 +1,8 @@
 package ml.crisgy.cgyapp;
+/**
+ * 添加考试至日历提醒
+ * @version 1.1.2
+ */
 
 import android.content.ContentUris;
 import android.content.ContentValues;

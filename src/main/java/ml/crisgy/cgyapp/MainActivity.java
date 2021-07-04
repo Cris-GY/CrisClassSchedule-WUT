@@ -1,4 +1,7 @@
 package ml.crisgy.cgyapp;
+/**
+ * 使用模板进行修改
+ */
 
 import android.app.Notification;
 import android.app.NotificationChannel;
@@ -49,9 +52,13 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         Toolbar toolbar = findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
+        setSupportActionBar(toolbar);//菜单栏
         FloatingActionButton fab = findViewById(R.id.fab);//进入添加课程考试界面
         fab.setOnClickListener(new View.OnClickListener() {
+            /**
+             * 添加考试课程选择界面
+             * @param view
+             */
             @Override
             public void onClick(View view) {//选择考试or课程
                 AlertDialog.Builder courseexamdialog = new AlertDialog.Builder(MainActivity.this).setTitle("请选择需要添加的对象").setPositiveButton("课程", new DialogInterface.OnClickListener() {
@@ -109,6 +116,9 @@ public class MainActivity extends AppCompatActivity {
                 || super.onSupportNavigateUp();
     }
 
+    /**
+     *结束前发出提醒
+     */
     @RequiresApi(api = Build.VERSION_CODES.O)
     @Override
     public void onDestroy() {
